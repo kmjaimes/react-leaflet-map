@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+#root, #map, #mapUI {
+  width: inherit;
+  height: inherit;
+  background-color: #000;
+}
+
+.info {
+  position: absolute;
+  top: 10px;
+  right:10px;
+  z-index: 10;
+  width: 180px;
+  height: auto;
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.info p {
+  padding-left: 5px;
+}
+
+.reset {
+  position: absolute;
+  top: 80px;
+  left:13px;
+  z-index: 10;
+  width: auto;
+  height: 25px;
+  font: 14px Arial, Helvetica, sans-serif;
+  background: white;
+  border: 1px solid rgba(0,0,0,.15);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+  border-radius: 5px;
+}
+
+.reset img {
+  width: 15px;
+  height: 15px;
+}
